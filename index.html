@@ -468,8 +468,8 @@
 
             // --- ADMIN LOGIC ---
             showLogin() {
-                const pass = prompt("Enter Admin Password (Hint: admin123):");
-                if (pass === 'admin123') { // 1. HOW TO CHANGE ADMIN PASSWORD: Change this string
+                const pass = prompt("Enter Admin Password (Hint: admin_only):");
+                if (pass === 'admintirusha') { // 1. HOW TO CHANGE ADMIN PASSWORD: Change this string
                     this.isAdmin = true;
                     this.showAdmin();
                     this.notify("Welcome back, Commander.", "success");
